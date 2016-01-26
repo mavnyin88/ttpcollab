@@ -1,0 +1,32 @@
+h1{
+	text-align: center;	
+}
+.showResult{
+	display: none;
+}
+#btn1{
+	margin-top: 20px;
+}
+.bar1{
+	height: 30px;
+	width: 40px;
+	background-color: red;
+}
+.bar2{
+	height: 30px;
+	width: 40px;
+	background-color: blue;
+
+}
+.bar3{
+	height: 30px;
+	width: 40px;
+	background-color: red;
+
+}
+.bar4{
+	height: 30px;
+	width: 40px;
+	background-color: blue;
+
+}
