@@ -2,6 +2,7 @@ h1{
 	text-align: center;	
 }
 .showResult{
+	margin-left: 40px;
 	display: none;
 }
 #btn1{
@@ -30,3 +31,51 @@ h1{
 	background-color: blue;
 
 }
+.vote{
+	margin-left: 20px;
+}
+p{
+	margin-top: 60px;
+}
+.nav-bar{
+	background-color: #cc0000;
+	width: 100%;
+	position: relative;
+	padding: 20px 0;
+}
+ul{
+	
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.nav-ul{
+
+}
+li{
+	list-style-type: none; 
+	display: inline-block;
+	margin: 0 15px;
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.bar-motion{
+}
+.bar-motion:hover {
+	font-size: 25px;
+	font-family: 'KulminoituvaRegular', helvetica, sans-serif;
+	-ms-transform:rotate(-45deg); /* IE 9 */
+ 	-moz-transform:rotate(-45deg); /* Firefox */
+  	-webkit-transform:rotate(-45deg); /* Safari and Chrome */
+  	-o-transform:rotate(-45deg); /* Opera */
+	color: #00009b;
+
+}
+
+
+
+
