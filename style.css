@@ -5,6 +5,45 @@
 #contain{
 	position:relative;
 }
+.nav-bar{
+	background-color: #cc0000;
+	width: 100%;
+	position: relative;
+	padding: 20px 0;
+}
+ul{
+	
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.nav-ul{
+
+}
+li{
+	list-style-type: none; 
+	display: inline-block;
+	margin: 0 15px;
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.bar-motion{
+	font-size: 20px;
+	letter-spacing: 5px;
+}
+.bar-motion:hover {
+	font-size: 25px;
+	font-family: 'KulminoituvaRegular', helvetica, sans-serif;
+	-ms-transform:rotate(-45deg); 
+ 	-moz-transform:rotate(-45deg);
+  	-webkit-transform:rotate(-45deg);
+  	-o-transform:rotate(-45deg);
+	color: rgb(0,93,150);
+}
 
 #center{
 	width: 1014px;
@@ -16,7 +55,9 @@
 	margin: 10px;
 	text-align: center;
 	letter-spacing: 5px;
-	font-size: 50px;
+	font-size: 60px;
+	color: rgb(0,93,150);
+	text-shadow: 2px 2px 4px rgb(84,156,201);
 
 }
 
@@ -24,8 +65,9 @@
 	margin: 10px;
 	text-align: center;
 	letter-spacing: 5px;
-	font-size: 50px;
-
+	font-size: 60px;
+	color:rgb(121,1,2);
+	text-shadow: 2px 2px 4px rgb(212,23,30);
 }
 
 #leftCol{
@@ -43,11 +85,23 @@
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
 	border-bottom: 2px #000 solid;
-	background: rgb(84,156,201)
+	background: rgb(84,156,201);
 }
 
 .leftPicText{
 	padding:20px;
+}
+.rightPicText{
+	padding:20px;
+}
+
+.candHeader{
+	margin-top: 0;
+	margin-bottom: 10px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-family: Verdana;
+	font-size: 30px;
 }
 
 .circle{
@@ -104,11 +158,29 @@ IMG.pic{
 	-webkit-text-stroke-width: 2px;
 	-webkit-text-stroke-color: rgb(251,251,223);
 	z-index:1;
-	letter-spacing: 5px;
-	font-family: Verdana;
-	font-size: 65px;
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1;
+	text-shadow: 2px 2px 4px rgb(212,23,30);
+	/*letter-spacing: 5px;*/
+	font-size: 75px;
+}
+.emailHeader{
+	text-align: center;
+	font-family: 'Helvetica Neue', sans-serif; 
+	font-weight: bold; 
+	letter-spacing: -1px; 
+	line-height: 1;
+	text-shadow: 2px 2px 4px rgb(212,23,30);
+	font-size: 45px;
+
 }
 
+footer{
+	text-align: center;
+	letter-spacing: 5px;
+}
 body{
 	margin:0;
 	padding:0;
