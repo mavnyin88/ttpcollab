@@ -4,13 +4,33 @@
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="voteStyle.css">
 	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="animate.min.css">
 	<script src="vote.js"></script>
 	<title>Document</title>
 </head>
 <body>
-	<h1>Priesident</h1>
+	<div id="contain">
+		<h1 class="animated rubberBand centerHeader">2016 Presidential<br>Election</h1>
+	<img id="topBar" src="http://www.cengagebrain.com/blog/wp-content/uploads/2012/10/elections.jpg">
+
+	</div>
+	<nav class="nav-bar">
+		<ul class ="nav-ul">
+			<li>
+				<a href="index.html"><div class="bar-motion">Home</div></a>
+			</li>
+			<li>
+				<a href="vote.html"><div class="bar-motion">Vote</div></a>
+			</li>
+			<li>
+				<a href="#"><div class="bar-motion">Photo Gallery</div></a>
+			</li>
+		</ul>
+	</nav>
+	<h2 class="demHeader">Democratic Party</h2>
 	<p>Please select who you want to vote for:</p>
-	<form action="#" method = "POST">
+	<form class="vote" action="#" method = "POST">
 		<!-- <br>
 		user: 
 		<br>
@@ -38,7 +58,7 @@
 		<p id="result4"></p>
 		<div class="bar4"></div>
 	</div>
-	<button id="btn1">Show result</button>
+	<button class="vote" id="btn1">Show result</button>
 	
 </body>
 </html>
