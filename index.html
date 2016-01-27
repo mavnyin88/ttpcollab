@@ -3,11 +3,13 @@
 <head>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="animate.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="main.js"></script>
 	<meta charset="UTF-8">
 	<title>2016 Presidential Election</title>
 </head>
 <body>
-	<div id="contain">
+	<div id="contain"> 
 		<h1 class="animated rubberBand centerHeader">2016 Presidential<br>Election</h1>
 	<img id="topBar" src="http://www.cengagebrain.com/blog/wp-content/uploads/2012/10/elections.jpg">
 	</div>
@@ -25,7 +27,7 @@
 		</ul>
 	</nav>
 	<h2 class="demHeader">Democratic Party</h2>
-	<div id="center">
+	<div id="center"> 
 		<div id="leftCol">
 			<div id="democratDiv">
 				<img class='pic' src="http://teacher.scholastic.com/scholasticnews/indepth/election2008/games/poster/assets/symbols/donkey_symbol.png">
@@ -39,7 +41,7 @@
 			</p>
 		</div>
 		</div>
-		<div id="inBetween"></div>
+		<div id="centerVs"> <img class='pic2' src="http://geekeroshoy.com/wp-content/uploads/2015/11/comparador-smartphones-versus.png"> </div>
 		<div id="rightCol">
 			<div id="democratDiv">
 				<img class='pic' src="http://teacher.scholastic.com/scholasticnews/indepth/election2008/games/poster/assets/symbols/donkey_symbol.png">
@@ -53,7 +55,7 @@
 			</p>
 			</div> <!-- end rightPicText -->
 		</div>
-	</div>
+</div>
 <!-- REPUB --> 		<!-- REPUB --> 		<!-- REPUB -->		<!-- REPUB --> 		<!-- REPUB --> 		<!-- REPUB --> 		<!-- REPUB -->		<!-- REPUB -->
 	<h2 class="repHeader">Republican Party</h2>
 	<div id="center">
@@ -70,7 +72,7 @@
 			</p>
 		</div> <!-- end leftPicText -->
 		</div> <!-- end leftCol -->
-		<div id="inBetween"></div>
+		<div id="centerVs"> <img class='pic2' src="http://geekeroshoy.com/wp-content/uploads/2015/11/comparador-smartphones-versus.png"> </div>
 		<div id="rightCol">
 			<div id="repubDiv">
 				<img class='pic' src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Republicanlogo.svg/2000px-Republicanlogo.svg.png">
@@ -88,20 +90,22 @@
 	</div> <!-- end center -->
 	<br>
 	<br>
+	<div id='forForm'>
 	<h1 class='emailHeader'> FOR THE LATEST NEWS AND INFORMATION <br> SIGN UP FOR OUR EMAIL BLAST! </h1>
 	<form action="#" method="POST">
 		<div style="width:500px; margin:0 auto">
 			<fieldset style="color:red">
 				<legend> Email Blast: </legend>
 				Name:<br>
-				<input type='text' id='userName' name='username'><br><br>
+				<input type='text' id='userName' name='username' placeholder="Enter Name"><br><br>
 				
 				Email:<br>
-				<input type='text' id='email' name='email'><br><br>
+				<input type='text' id='email' name='email' placeholder="Enter Email"><br><br>
 				<button id='submit'>SUBMIT</button>
 			</fieldset>
 		</div>
 	</form>
+	<div>
 	<br>
 	<br>
 <footer>
