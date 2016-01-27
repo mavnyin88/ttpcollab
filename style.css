@@ -228,3 +228,33 @@ body{
 .votebox{
 	text-align: center;
 }
+.col1{
+	margin-left: 40px;
+	width: 60x;
+	float: left;
+	border: solid;
+}
+.col2{
+	margin-left: 40px;
+	width: 60x;
+	float: left;
+	border: solid;
+}
+.col3{
+	margin-left: 40px;
+	width: 60x;
+	float: left;
+	border: solid;
+}
+.col4{
+	margin-left: 40px;
+	width: 60x;
+	float: left;
+	border: solid;
+}
+.photo{
+	width: 600px;
+}
+.image{
+	width: 40px;
+}
