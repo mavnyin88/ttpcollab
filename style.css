@@ -187,3 +187,44 @@ body{
 	margin-top:0;
 	background: rgb(251,251,223)
 }
+.showResult{
+	display: none;
+	margin: 0 auto;
+	width: 200px;
+}
+#btn1{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.bar1{
+	height: 30px;
+	width: 40px;
+	background-color: red;
+}
+.bar2{
+	height: 30px;
+	width: 40px;
+	background-color: blue;
+
+}
+.bar3{
+	height: 30px;
+	width: 40px;
+	background-color: red;
+
+}
+.bar4{
+	height: 30px;
+	width: 40px;
+	background-color: blue;
+
+}
+.vote{
+	margin-left: 30px;
+}
+.askForVote{
+	text-align: center;
+}
+.votebox{
+	text-align: center;
+}
