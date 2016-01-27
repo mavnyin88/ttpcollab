@@ -59,6 +59,10 @@ $(document).ready(function(){
 	$("#btn1").click(function(){
 		$(".showResult").css("display", "block");
 	})
+	var windowWidth = window.innerWidth/20;
+	windowWidth = windowWidth.toString()+"px";
+	console.log(windowWidth);
+	$(".centerHeader").css("font-size", windowWidth);
 	
 	
 
