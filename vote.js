@@ -5,39 +5,23 @@ $(document).ready(function(){
 	var resultC = 33;
 	var resultD = 11;
 	total = resultA + resultB + resultC + resultD;
-	
-
-	
-	
+	event.preventDefault();
 	$("form").submit(function(event){
 		event.preventDefault();
-		// var user = $("#user").val();
-		// var email = $("#email").val();
-		
-
-
 		var result = $("select option:selected").html();
 		console.log(result);
-		if(result==="a"){
+		if(result==="Hillary Clinton"){
 			resultA++;
-		}else if(result==="b"){
+		}else if(result==="Bernie Sanders"){
 			resultB++;
-		}else if(result==="c"){
+		}else if(result==="Donald Trump"){
 			resultC++;
-		}else if(result==="d"){
+		}else if(result==="Ted Cruz"){
 			resultD++;
 		}else{
 			alert("Error");
 		}
-		
-
 		total = resultA + resultB + resultC + resultD;
-		console.log(resultA);
-		console.log(resultB);
-		console.log(resultC);
-		console.log(resultD);
-		console.log(total);
-		console.log(resultA/total);
 		var a = (resultA/total*100).toFixed(0)*2;
 		a = a.toString();
 		$(".bar1").css("width", a);
@@ -50,10 +34,10 @@ $(document).ready(function(){
 		var d = (resultD/total*100).toFixed(0)*2;
 		d = d.toString();
 		$(".bar4").css("width", d);
-		$("#result1").html("result of a: " + (resultA/total*100).toFixed(2) +"%");
-		$("#result2").html("result of b: " + (resultB/total*100).toFixed(2) +"%");
-		$("#result3").html("result of c: " + (resultC/total*100).toFixed(2) +"%");
-		$("#result4").html("result of d: " + (resultD/total*100).toFixed(2) +"%");
+		$("#result1").html("Result of Hillary Clinton: " + (resultA/total*100).toFixed(2) +"%");
+		$("#result2").html("Result of Bernie Sanders: " + (resultB/total*100).toFixed(2) +"%");
+		$("#result3").html("Result of Donald Trump: " + (resultC/total*100).toFixed(2) +"%");
+		$("#result4").html("Result of Ted Cruz: " + (resultD/total*100).toFixed(2) +"%");
 		
 	})
 	$("#btn1").click(function(){
