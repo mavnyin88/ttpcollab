@@ -51,12 +51,13 @@ a{
 	margin: 0 auto;
 }
 .partyBorder{
-	width: 1002px;
+	width: 1023px;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	border: 2px #000 solid;
+	background-color: rgb(0,93,150);
 	border-radius: 10px;
 }
 #centerVs{
@@ -67,17 +68,19 @@ a{
 .demHeader{
 	margin: 10px;
 	text-align: center;
-	letter-spacing: 5px;
+	letter-spacing: 15px;
 	font-size: 60px;
-	color: rgb(0,93,150);
-	text-shadow: 2px 2px 4px rgb(84,156,201);
+/*	color: rgb(0,93,150);*/
+	color:rgb(251,251,223);
+	text-shadow: 2px 2px 4px rgb(212,23,30);
 }
 .repHeader{
 	margin: 10px;
 	text-align: center;
-	letter-spacing: 5px;
+	letter-spacing: 15px;
 	font-size: 60px;
-	color:rgb(121,1,2);
+	/*color:rgb(121,1,2);*/
+	color:rgb(251,251,223);
 	text-shadow: 2px 2px 4px rgb(212,23,30);
 }
 #leftCol{
@@ -116,6 +119,7 @@ a{
 	text-align: center;
 	letter-spacing: 5px;
 	font-family: Verdana;
+	color: rgb(251,251,223);
 	font-size: 30px;
 	text-shadow: 2px 2px 4px rgb(212,23,30);
 }
