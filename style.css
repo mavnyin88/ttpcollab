@@ -47,7 +47,7 @@ a{
 }
 #center{
 	width: 1023px;
-	height: 510px;
+	height: 610px;
 	margin: 0 auto;
 }
 #centerVs{
@@ -194,6 +194,7 @@ IMG.pic2:hover{
 }
 .emailHeader{
 	text-align: center;
+	margin-top: 10px;
 	font-family: 'Helvetica Neue', sans-serif; 
 	font-weight: bold; 
 	letter-spacing: -1px; 
