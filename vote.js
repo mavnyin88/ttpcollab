@@ -1,13 +1,16 @@
 
 $(document).ready(function(){
+
 	var resultA = 42;
 	var resultB = 18;
 	var resultC = 31;
 	var resultD = 9;
 	total = resultA + resultB + resultC + resultD;
 	event.preventDefault();
+
 	$("form").submit(function(event){
 		event.preventDefault();
+		$("#thanksDis").html("<br> THANKS FOR YOUR VOTE <br> TO VIEW RESULTS CLICK BELOW");
 		var result = $("select option:selected").html();
 		console.log(result);
 		if(result==="Hillary Clinton"){
@@ -37,16 +40,20 @@ $(document).ready(function(){
 		$("#result1").html("Result of Hillary Clinton: " + (resultA/total*100).toFixed(2) +"%");
 		$("#result2").html("Result of Bernie Sanders: " + (resultB/total*100).toFixed(2) +"%");
 		$("#result3").html("Result of Donald Trump: " + (resultC/total*100).toFixed(2) +"%");
-		$("#result4").html("Result of Ted Cruz: " + (resultD/total*100).toFixed(2) +"%");
-		
-	})
+		$("#result4").html("Result of Ted Cruz: " + (resultD/total*100).toFixed(2) +"%");		
+	}) // end form/submit
+
+	
+
 	$("#btn1").click(function(){
 		$(".showResult").css("display", "block");
+		$("#thanksDis").css("display","none");
 	})
+
 	var windowWidth = window.innerWidth/20;
 	windowWidth = windowWidth.toString()+"px";
 	console.log(windowWidth);
 	$(".centerHeader").css("font-size", windowWidth);
 	
 	
-});
+}); // end doc ready 

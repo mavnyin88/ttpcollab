@@ -30,7 +30,7 @@ li{
 }
 a{
 	text-decoration: none;
-	color: #fff;
+	color: rgb(251,251,223);
 }
 .bar-motion{
 	font-size: 23px;
@@ -49,6 +49,16 @@ a{
 	width: 1023px;
 	height: 610px;
 	margin: 0 auto;
+}
+.partyBorder{
+	width: 1002px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: 2px #000 solid;
+	border-radius: 10px;
+	background-color: rgb(133,134,139);
 }
 #centerVs{
 	margin-left: 440px;
@@ -161,7 +171,6 @@ IMG.pic2:hover{
 	height: 600px;
 	border-radius: 10px;
 	border: 2px #000 solid;
-	margin-bottom: 50px;
 }
 #repubDiv{
 	width:500px;
@@ -284,4 +293,8 @@ body{
 }
 .image{
 	width: 40px;
+}
+#centerVoteBox{
+	width:200px;
+	margin: 0 auto;
 }
