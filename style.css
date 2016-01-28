@@ -58,7 +58,6 @@ a{
 	margin-bottom: 15px;
 	border: 2px #000 solid;
 	border-radius: 10px;
-	background-color: rgb(133,134,139);
 }
 #centerVs{
 	margin-left: 440px;
@@ -197,8 +196,7 @@ IMG.pic2:hover{
 	font-weight: bold; 
 	letter-spacing: -1px; 
 	line-height: 1;
-	text-shadow: 2px 2px 4px rgb(212,23,30);
-	/*letter-spacing: 5px;*/
+	text-shadow: 6px 6px 4px rgb(212,23,30);
 	font-size: 75px;
 }
 .emailHeader{
