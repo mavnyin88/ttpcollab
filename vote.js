@@ -1,9 +1,9 @@
 
 $(document).ready(function(){
-	var resultA = 43;
-	var resultB = 20;
-	var resultC = 33;
-	var resultD = 11;
+	var resultA = 42;
+	var resultB = 18;
+	var resultC = 31;
+	var resultD = 9;
 	total = resultA + resultB + resultC + resultD;
 	event.preventDefault();
 	$("form").submit(function(event){
@@ -48,7 +48,5 @@ $(document).ready(function(){
 	console.log(windowWidth);
 	$(".centerHeader").css("font-size", windowWidth);
 	
-	
-
 	
 });
