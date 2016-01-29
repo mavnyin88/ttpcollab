@@ -267,31 +267,37 @@ body{
 	text-align: center;
 }
 .col1{
-	margin-left: 40px;
-	width: 60x;
+	margin-left: 5px;
+	width: 24%;
 	float: left;
-	border: solid;
+	border: 2px #000 solid;
+	border-radius: 10px;
 }
 .col2{
-	margin-left: 40px;
-	width: 60x;
+	margin-left: 5px;
+	width: 24%;
 	float: left;
-	border: solid;
+	border: 2px #000 solid;
+	border-radius: 5px;
 }
 .col3{
-	margin-left: 40px;
-	width: 60x;
+	margin-left: 5px;
+	width: 24%;
 	float: left;
-	border: solid;
+	border: 2px #000 solid;
+	border-radius: 10px;
 }
 .col4{
-	margin-left: 40px;
-	width: 60x;
+	margin-left: 5px;
+	width: 24%;
 	float: left;
-	border: solid;
+	border: 2px #000 solid;
+	border-radius: 10px;
 }
 .photo{
-	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+	width: 1000px;
 }
 .image{
 	width: 40px;
@@ -299,4 +305,32 @@ body{
 #centerVoteBox{
 	width:200px;
 	margin: 0 auto;
+}
+.lightbox-outer{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top:0;
+	background-color: rgba(0,0,0,.7);
+	display: none;
+}
+.lightbox-inner{
+	text-align: center;
+}
+
+.btn{
+	
+}
+.size{
+	width: 500px;
+}
+h2{
+	font-family: Oswald;
+	font-size: 26px;
+	font-style: oblique;
+	font-variant: small-caps;
+	font-weight: 100;
+	line-height: 26px;
+	color:;
 }
