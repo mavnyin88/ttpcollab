@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="animate.min.css">
+	<script src="vote.js"></script>
+	<title>2016 Presidential Election</title>
+</head>
+<body>
+	<div id="contain">
+		<h1 class="animated rubberBand centerHeader">2016 Presidential<br>Election</h1>
+	<img id="topBar" src="http://www.cengagebrain.com/blog/wp-content/uploads/2012/10/elections.jpg">
+
+	</div>
+	<nav class="nav-bar">
+		<ul class ="nav-ul">
+			<li>
+				<a href="index.html"><div class="bar-motion">|Home|</div></a>
+			</li>
+			<li>
+				<a href="vote.html"><div class="bar-motion">|Vote|</div></a>
+			</li>
+			<li>
+				<a href="gallery.html"><div class="bar-motion">|Gallery|</div></a>
+			</li>
+		</ul>
+	</nav>
+	<h2 class="demHeader">Choose your Vote</h2>
+	<p class="askForVote">Please select who you want to vote for:</p>
+	<div class="votebox">
+		<form class="vote" action="#" method = "POST">
+			<br>
+			<select>
+			  <option value="select1">Hillary Clinton</option>
+			  <option value="select2">Bernie Sanders</option>
+			  <option value="select3">Donald Trump</option>
+			  <option value="select4">Ted Cruz</option>
+			</select>
+			<input type="submit">
+		</form>
+		<div id='thanksDis'></div>
+		<div class="showResult">
+			<p id="result1"></p>
+			<div class="bar1"></div>
+			<p id="result2"></p>
+			<div class="bar2"></div>
+			<p id="result3"></p>
+			<div class="bar3"></div>
+			<p id="result4"></p>
+			<div class="bar4"></div>
+		</div>
+		<button class="vote" id="btn1">Show result</button>
+	</div>
+<br>
+<footer>
+	2016 All Rights Reserved<br><br><br>
+</footer>
+<br>
+<br>
+<img id="bottomBar" src="http://www.cengagebrain.com/blog/wp-content/uploads/2012/10/elections.jpg">
+</body>
+</html>
